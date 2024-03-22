@@ -189,25 +189,41 @@ li {
     margin-bottom: 0;
 }
 
-.content .future-dates ul {
+.content .future-dates ul{
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.5rem;
+	gap: 0.3rem;
 	align-items: center;
 	justify-content: center;
 	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
 }
 .content .future-dates ul li{
 	list-style: none;
 	border: 1px solid #007377;
-	padding: 0.5rem 0.8rem;
+	padding: 0.4rem 0.7rem;
 	font-size: 0.9rem;
 	border-radius: 4px;
 	color: #007377;
 	background-color: #fff;
 	font-weight: 600;
+	margin: 5px;
 }
+
+@media screen and (max-width: 660px){
+	.content .future-dates ul li{
+	padding: 0.4rem;
+	font-size: 0.8rem;
+	border-radius: 4px;
+	color: #007377;
+	background-color: #fff;
+	font-weight: 600;
+	margin: 5px;
+}
+}
+
 
 .content .column-1 img {
 	width: 200px;
